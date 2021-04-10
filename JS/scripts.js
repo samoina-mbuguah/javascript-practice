@@ -34,3 +34,16 @@ if (testScore>=0 && testScore<=20) {
   } else if (testScore>=81 && testScore<=100) {
     console.log("Your test score grade is D");
   }
+
+  // Display prompts depending on the weather using logical operators
+  var temperature = 10;
+  var raining = true;
+  if (temperature<0) {
+    console.log("Bruh, unataka kushika pneumonia? Wear a jacket");
+  } else if(temperature<15 && raining===true) {
+    console.log("Carry a jacket and an umbrella");
+  } else if(temperature<25) {
+    console.log("Have a beautiful day today :)")
+  } else {
+    console.log("Keep cool today!")
+  }
