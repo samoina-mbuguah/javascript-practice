@@ -11,3 +11,11 @@ if (BMI<18.5) {
 } else {
   console.log("Your BMI indicates that you may be overweight");
 }
+
+// coffee and tea cafe
+var answer=confirm("Would you like some tea?");
+if (answer="Yes") {
+  console.log("Your hot cup of tea will e served shortly");
+} else {
+  console.log("Your cuppa coffee will be served shortly");
+}
