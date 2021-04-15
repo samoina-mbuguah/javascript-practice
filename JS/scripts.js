@@ -159,4 +159,9 @@
     $("body").removeClass();
     $("body").addClass("dark-theme");
   });
+
+  $("button.restore").click(function () {
+    $("body").removeClass();
+    $("body").addClass("default-theme");
+  });
 });
